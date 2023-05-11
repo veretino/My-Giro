@@ -1,0 +1,532 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color */
+body {
+    background-color: #f5f5f5;
+}
+
+img.logo-image {
+    width: 50px;
+}
+
+/* Style header */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+header button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-top: 5px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Style hero section */
+.hero {
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1563368799-c2985229c05b');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+
+/* Style information section */
+
+#useful-information {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+#useful-information h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#useful-information p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#useful-information img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#useful-information .btn {
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+
+/* Style newsletter section */
+
+.newsletter {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    flex-basis: 60%;
+    padding-right: 50px;
+}
+
+.newsletter-info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.newsletter-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter-info ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.newsletter-info li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.newsletter-form {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #555;
+}
+
+
+/* Style top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    opacity: 0.8;
+}
+
+.back-to-top:before {
+    content: "\25B2";
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/* Style reviews section */
+.reviews {
+    margin-top: 50px;
+}
+
+.reviews h2 {
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    margin-top: 30px;
+}
+
+.review img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.review-text {
+    flex: 1;
+}
+
+.review-text h3 {
+    margin: 0;
+}
+
+.review-date {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+/* Style brands section */
+
+#brands {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+}
+
+#brands h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-list li {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 30px;
+}
+
+.brand-list img {
+    max-width: 100%;
+}
+
+
+/* Style consultants section */
+
+#consultants {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#consultants h2 {
+    margin-bottom: 30px;
+}
+
+.consultant {
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.consultant img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.consultant h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.consultant p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* Style goods section */
+
+.goods {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.product-list li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.product-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-list img {
+    width: 100%;
+    height: auto;
+}
+
+.product-list h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-list .price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-list .type {
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* Style filter section */
+
+#filter {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+
+#filter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#filter ul li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+#filter ul li:hover {
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+#filter ul li.active {
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+#filter ul li.active:hover {
+    background-color: #1a237e;
+}
+
+
+/* Style features section */
+
+.features {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+}
+
+.benefits-slider{
+    background-image: url("/images/slider_background.jpg");
+    width: 700px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    margin: 10px auto;
+}
+
+.white-text{
+    color: white;
+    text-shadow: black 0 0 2px;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.slider-items {
+    display: flex;
+    animation: slide 30s infinite;
+}
+
+.slider-item {
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.slider-image{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-100%);
+    }
+    66% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+div.content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
